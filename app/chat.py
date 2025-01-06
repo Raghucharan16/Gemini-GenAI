@@ -4,13 +4,8 @@ load_dotenv()  # take environment variables from .env.
 
 import streamlit as st
 import os
-import pathlib
-import textwrap
-
 import google.generativeai as genai
 
-from IPython.display import display
-from IPython.display import Markdown
 
 
 os.getenv("GOOGLE_API_KEY")

@@ -6,6 +6,8 @@ import streamlit as st
 import os
 import textwrap
 from app.chat import get_gemini_response
+from app.qa import get_gemini_response_qa
+from app.vision import get_gemini_response_vision
 import google.generativeai as genai
 
 
