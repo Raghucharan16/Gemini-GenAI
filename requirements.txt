@@ -3,4 +3,9 @@ google-generativeai
 python-dotenv
 langchain
 PyPDF2
-chromadb
+streamlit
+psycopg2-binary
+pandas
+plotly
+vanna
+openai
